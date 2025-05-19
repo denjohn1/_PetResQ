@@ -2,6 +2,19 @@
   "expo": {
     "name": "PetResQ",
     "slug": "PetResQ",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "expo-font"
+    ],
+    "android": {
+      "package": "com.den.petresq",
+      "versionCode": 1,
+      "hermes": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4006a55-74ff-44e0-8c1e-03ca03ddb4de"
+      }
+    }
   }
 }
